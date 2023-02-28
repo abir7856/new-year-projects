@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+main {
+  margin: 0 206;
+}
+
+header {
+  background-image: url(/images/banner/banner2.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.all-thinks {
+  position: absolute;
+  left: 845px;
+  top: 216px;
+  text-align: right;
+  margin: 130px 0 0 200px;
+  width: 525px;
+}
+.all-thinks h1 {
+  font-weight: 700;
+  font-size: 65px;
+  color: #151414;
+}
+.all-thinks p {
+  color: #444343;
+  text-align: right;
+  margin: 24px 0 32px 0;
+}
+
+.all-thinks button {
+  padding: 20px 26px;
+  background: #f15b22;
+  border-radius: 5px;
+  border: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+
+.right-icons {
+  width: 20px;
+  height: 20px;
+}
+
+.failure-points {
+  justify-content: space-around;
+}
+
+.my-failures {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 130px 322px 130px 206px;
+}
+.my-failures h3 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.failures-description > p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+li {
+  list-style: none;
+  align-items: left;
+  display: flex;
+  gap: 10px;
+  margin-left: -40px;
+}
+
+.failures-description {
+  width: 416px;
+}
+
+.my-plans > h3 {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 200px;
+}
+
+.myplans {
+  text-align: center;
+  display: flex;
+  margin: 0 230px;
+  justify-content: space-around;
+}
+
+.my-plans-descriptions h3 {
+  margin: 16px 0px;
+}
+
+.positive-mindset {
+  margin: 124px 230px 130px 375px;
+  background-image: url("/images/watch.png");
+  background-repeat: no-repeat;
+  display: inline-flex;
+  align-items: center;
+}
+
+.pos-banner {
+  position: absolute;
+  width: 459px;
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  padding-left: 100px;
+}
+
+.pos-banner > button {
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 36px;
+  border-radius: 10px;
+  border: 0;
+  margin-top: 24px;
+}
+
+footer {
+  display: flex;
+  padding: 130px 230px;
+  background: #151414;
+  color: white;
+}
+
+.future {
+  width: 485px;
+  margin-left: 150px;
+}
+
+.future h2 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+
+.future > p {
+  margin-bottom: 24px;
+}
+
+footer ul {
+  display: flex;
+  gap: 60px;
+}
+
+.subscribe h4 {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 31px;
+}
+
+footer {
+  justify-content: space-between;
+}
+
+.subscribe input {
+  padding: 21px 158px 21px 21px;
+  margin-bottom: 31px;
+  background: #151414;
+}
+
+.subs-btn {
+  padding: 20px 36px 20px 36px;
+  display: block;
+  border-radius: 10px;
+}
+
+.subscribe {
+  margin-right: 150px;
+}
