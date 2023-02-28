@@ -8,7 +8,7 @@ main {
 }
 
 header {
-  background-image: url(/images/banner/banner2.png);
+  background-image: url("../images/banner/banner2.png");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,10 +72,13 @@ header {
 
 li {
   list-style: none;
-  align-items: left;
+  align-items: center;
   display: flex;
   gap: 10px;
-  margin-left: -40px;
+}
+.failures-description > ul {
+  padding: 0;
+  list-style-type: none;
 }
 
 .failures-description {
@@ -103,7 +106,7 @@ li {
 
 .positive-mindset {
   margin: 124px 230px 130px 375px;
-  background-image: url("/images/watch.png");
+  background-image: url("../images/watch.png");
   background-repeat: no-repeat;
   display: inline-flex;
   align-items: center;
@@ -152,7 +155,7 @@ footer {
 
 footer ul {
   display: flex;
-  gap: 60px;
+  gap: 20px;
 }
 
 .subscribe h4 {
@@ -179,4 +182,14 @@ footer {
 
 .subscribe {
   margin-right: 150px;
+}
+
+.subscribe input {
+  border-radius: 10px;
+  border: 1px solid #444343;
+}
+
+.future > ul {
+  padding: 0;
+  margin: 0;
 }
